@@ -3,8 +3,14 @@
 	"author": "Alexander Gray",
 	"manifest_version": 3,
 	"target": "Other",
-	"description": "Testing shit for now",
+	"description": "Simple and clean modern theme",
 	"inject": {
 		"shared.css": ["SP"]
+	},
+	"dependencies": {
+		"Round": {
+			"Intensity": "15px",
+			"Outlines": "Round"
+		}
 	}
 }
