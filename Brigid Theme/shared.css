@@ -1,0 +1,155 @@
+:root {
+	--CGV-top-panel-height: calc(100vh - 80px - 63px);
+	--CGV-image-height: calc(100vh - 40px);
+	--CGV-play-anim-height: 58vw;
+}
+
+.gamepadhome_RecentSection_39tNv {
+	height: calc(100% - 58px);
+}
+
+.gamepadhomerecentgames_RecentGamesContainer_2_cRk {
+	height: calc(100% - 58px);
+}
+
+.gamepadhomerecentgames_RecentGamesHeader_35iRe {
+	opacity: 0;
+}
+
+.gamepadhomerecentgames_RecentGamesBackgroundFadeGradient_1ksIq {
+	background: -webkit-gradient(
+			linear,
+			left 80%,
+			left 99%,
+			from(rgba(21, 37, 51, 0)),
+			to(#152533)
+		),
+		-webkit-gradient(linear, 0% 0%, 100% 0%, color-stop(1%, #152533), color-stop(5%, rgba(21, 37, 51, 0)), color-stop(95%, rgba(21, 37, 51, 0)), color-stop(99%, #152533));
+}
+
+.basicgamecarousel_BasicGameCarousel_3MdH5 {
+	height: 335px !important;
+}
+
+.gamepadhomerecentgames_RecentGamesInnerContainer_282X0 {
+	padding-top: 52px;
+}
+
+.BasicUI .sharedappdetailsheader_TopCapsule_2meE3 {
+	height: var(--CGV-top-panel-height);
+}
+
+.sharedappdetailsheader_HeaderBackgroundImage_1sarA {
+	height: var(--CGV-image-height);
+	max-height: calc(100% + 60px) !important;
+}
+
+.BasicUI
+	.sharedappdetailsheader_TopCapsule_2meE3.sharedappdetailsheader_FullscreenEnterStart_P7eLv {
+	animation-name: makethinggodown;
+	animation-duration: 1s;
+}
+
+.BasicUI
+	.sharedappdetailsheader_TopCapsule_2meE3.sharedappdetailsheader_FullscreenEnterDone_1PRtu {
+	height: var(--CGV-play-anim-height);
+}
+
+.sharedappdetailsheader_BoxSizer_30GVp {
+	top: 80% !important;
+	max-height: 120px;
+}
+
+.sharedappdetailsheader_TitleSection_1P_tv {
+	padding: 0;
+}
+
+.sharedappdetailsheader_SVGTitle_2w_Zq {
+	background: rgba(14, 20, 27, 0.5);
+	padding-top: 10px;
+	padding-left: 24px;
+	padding-bottom: 16px;
+	margin-bottom: -6px;
+	width: 100%;
+}
+
+.basicappdetailssectionstyler_PlaySection_3scbH {
+	background: rgba(14, 20, 27, 0.33);
+}
+
+@keyframes makethinggodown {
+	from {
+		height: var(--CGV-top-panel-height);
+	}
+	to {
+		height: var(--CGV-play-anim-height);
+	}
+}
+
+.BasicUI
+	.basicappdetailssectionstyler_AppDetailsContainer_2-ns_ {
+	height: calc(120vh - 130px);
+}
+
+.footer_BasicFooter_3T1iF {
+	display: none;
+}
+
+.mainmenu_ViewPlaceholder_1PGlK.mainmenu_Fullscreen_26eRZ {
+	height: 100%;
+}
+
+.quickaccessmenu_ViewPlaceholder_2orc8:not(
+		.quickaccessmenu_FullHeight_3ud27
+	) {
+	height: calc(100% - 40px);
+}
+
+.appdetailsplaysection_CloudStatusRow_QvHky {
+	width: fit-content;
+	position: absolute;
+	top: 28px;
+	right: 152px;
+	transform: scale(2);
+}
+
+.appdetailsplaysection_CloudStatusLabel_fUTbl {
+	display: none;
+}
+.appdetailsplaysection_CloudStatusIcon_1Prjv > svg {
+	margin: 0 4px 4px 4px;
+}
+
+.appdetailsplaysection_CloudStatusRow_QvHky:not(.gpfocus)
+	.appdetailsplaysection_CloudStatusIcon_1Prjv
+	> svg {
+	color: white;
+}
+
+.appdetailsplaysection_CloudSyncProblem_2bzio:not(
+		.gpfocus
+	) {
+	background-color: #acb2c924;
+}
+
+.BasicUI .appportrait_PortraitMessage_3gwMk .appportrait_Message_3CRLA,
+.BasicUI .appportrait_PortraitMessage_3gwMk .appportrait_SubMessage_3DR9f {
+    width: fit-content;
+    margin: 0 auto 0 auto;
+}
+
+.basicgamecarousel_CarouselGameLabel_3CKji {
+    width: 0;
+    max-width: 0;
+    margin: 0 auto 0 auto !important;
+    overflow: visible !important;
+}
+
+.basicgamecarousel_CarouselGameLabelWrapper_ZkD6W {
+    width: 100% !important;
+}
+
+.basicgamecarousel_CarouselGameLabel_3CKji > .appportrait_PortraitMessage_3gwMk {
+    overflow: visible !important;
+    transform: translate(-50%, 0);
+}

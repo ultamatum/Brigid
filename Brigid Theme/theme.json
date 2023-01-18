@@ -1,0 +1,10 @@
+{
+	"name": "Brigid",
+	"author": "Alexander Gray",
+	"manifest_version": 3,
+	"target": "Other",
+	"description": "Testing shit for now",
+	"inject": {
+		"shared.css": ["SP"]
+	}
+}
